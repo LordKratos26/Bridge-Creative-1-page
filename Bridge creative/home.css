@@ -1,0 +1,222 @@
+body {
+  font-family: 'Bowlby One SC', cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+ul {
+  list-style: none; }
+
+.scrolltop {
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  top: 85%;
+  right: 2%;
+  background: url("images/arrow-up.png");
+  z-index: 5841;
+  background-position: center;
+  background-size: cover; }
+
+#first {
+  background-image: url("images/mainimg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 600px;
+  width: 100%; }
+  #first .header {
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all ease 0.3s;
+    overflow: hidden;
+    height: 100px;
+    position: absolute;
+    z-index: 2222;
+    width: 100%; }
+    #first .header .container-fluid .row .logodiv img {
+      width: 150px; }
+    #first .header .container-fluid .row .navbar {
+      text-align: center; }
+      #first .header .container-fluid .row .navbar ul {
+        padding-left: 100px;
+        padding-top: 100px;
+        line-height: 5em; }
+        #first .header .container-fluid .row .navbar ul li {
+          font-size: 40px; }
+          #first .header .container-fluid .row .navbar ul li a {
+            color: white;
+            text-decoration: none; }
+          #first .header .container-fluid .row .navbar ul li:hover {
+            background-color: #ff0000; }
+    #first .header .container-fluid .row .icondiv {
+      padding-top: 20px;
+      padding-left: 200px; }
+      #first .header .container-fluid .row .icondiv a {
+        text-decoration: none; }
+        #first .header .container-fluid .row .icondiv a i {
+          font-size: 50px;
+          color: white; }
+        #first .header .container-fluid .row .icondiv a .ixs {
+          display: none; }
+  #first .container .row .textdiv {
+    padding-top: 259px;
+    padding-left: 27px;
+    text-align: center;
+    z-index: 0;
+    color: white; }
+    #first .container .row .textdiv h1 {
+      font-size: 5rem; }
+    #first .container .row .textdiv h5 {
+      font-size: 2rem; }
+
+@media screen and (min-width: 320px) and (max-width: 359px) {
+  #first .header .icondiv {
+    padding-left: 29px !important; }
+  #first .header .navbar ul {
+    padding-left: 10px !important; }
+    #first .header .navbar ul li {
+      font-size: 10px !important; }
+  #first .container .row .textdiv h1 {
+    font-size: 30px; }
+  #first .container .row .textdiv h5 {
+    font-size: 25px; } }
+@media screen and (min-width: 360px) and (max-width: 639px) {
+  #first .header .icondiv {
+    padding-left: 29px !important; }
+  #first .header .navbar ul {
+    padding-left: 34px !important; }
+    #first .header .navbar ul li {
+      font-size: 10px !important; }
+  #first .container .row .textdiv h1 {
+    font-size: 30px; }
+  #first .container .row .textdiv h5 {
+    font-size: 25px; } }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #first .header .icondiv {
+    padding-left: 100px !important; }
+  #first .header .navbar ul {
+    padding-left: 93px !important; }
+    #first .header .navbar ul li {
+      font-size: 17px !important; }
+  #first .container .row .textdiv h1 {
+    font-size: 32px; }
+  #first .container .row .textdiv h5 {
+    font-size: 28px; } }
+#second {
+  padding-top: 100px;
+  overflow: hidden;
+  width: 100%; }
+  #second .container .row .col-md-6 {
+    overflow: hidden; }
+    #second .container .row .col-md-6 img {
+      width: 100%; }
+  #second .container .row .col-md-6 div h1 span {
+    color: #ff0000; }
+  #second .container .row .col-md-6 div ::selection {
+    background-color: #ff0000; }
+  #second .container .row .col-md-6 div ::selection {
+    background-color: #ff0000; }
+  #second .container .row .col-md-6 div button {
+    width: 40%;
+    height: 7vh;
+    border-radius: 15mm;
+    background-color: black;
+    outline: none; }
+    #second .container .row .col-md-6 div button span {
+      color: white; }
+    #second .container .row .col-md-6 div button:hover {
+      background-color: #ff0000;
+      cursor: pointer; }
+
+@media screen and (min-width: 320px) and (max-width: 359px) {
+  #second h1 {
+    font-size: 25px; }
+  #second p {
+    font-size: 13px; }
+  #second button {
+    height: 10vh !important; } }
+@media screen and (min-width: 360px) and (max-width: 639px) {
+  #second h1 {
+    font-size: 25px; }
+  #second p {
+    font-size: 13px; }
+  #second button {
+    height: 10vh !important; } }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #second h1 {
+    font-size: 22px; }
+  #second p {
+    font-size: 10px; }
+  #second button {
+    height: 6vh !important; } }
+#third {
+  padding-top: 100px;
+  background-color: #f7f7f7;
+  overflow: hidden;
+  width: 100%; }
+  #third .container .row .col-md-6 div h1 span {
+    color: #ff0000; }
+  #third .container .row .col-md-6 div ::selection {
+    background-color: #ff0000; }
+  #third .container .row .col-md-6 div ::selection {
+    background-color: #ff0000; }
+  #third .container .row .col-md-6 div button {
+    width: 40%;
+    height: 7vh;
+    border-radius: 15mm;
+    background-color: black;
+    outline: none; }
+    #third .container .row .col-md-6 div button span {
+      color: white; }
+    #third .container .row .col-md-6 div button:hover {
+      background-color: #ff0000;
+      cursor: pointer; }
+  #third .container .row .col-md-6 div {
+    overflow: hidden; }
+    #third .container .row .col-md-6 div img {
+      width: 100%; }
+
+@media screen and (min-width: 320px) and (max-width: 359px) {
+  #third h1 {
+    font-size: 25px; }
+  #third p {
+    font-size: 13px; }
+  #third button {
+    height: 10vh !important; } }
+@media screen and (min-width: 360px) and (max-width: 639px) {
+  #third h1 {
+    font-size: 25px; }
+  #third p {
+    font-size: 13px; }
+  #third button {
+    height: 10vh !important; } }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #third h1 {
+    font-size: 22px; }
+  #third p {
+    font-size: 10px; }
+  #third button {
+    height: 6vh !important; } }
+#seven {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #202020;
+  width: 100%; }
+  #seven .container {
+    text-align: center;
+    color: white; }
+
+#eight {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: black;
+  width: 100%; }
+  #eight .container .row .col-md-8 {
+    text-align: center; }
+    #eight .container .row .col-md-8 p {
+      padding-top: 25px;
+      color: white; }
+
+/*# sourceMappingURL=home.css.map */

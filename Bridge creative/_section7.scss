@@ -1,0 +1,16 @@
+#seven{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #202020;
+    width: 100%;
+    .container{
+        text-align: center;
+        color: white;
+       
+    }
+}
+@media screen and (min-width: 320px) and (max-width:359px){
+    #seven{
+        // width: 169%!important;
+    }
+}

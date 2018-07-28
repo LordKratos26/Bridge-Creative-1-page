@@ -1,0 +1,92 @@
+#third{
+    padding-top: 100px;
+    background-color: #f7f7f7;
+    overflow: hidden;
+    width: 100%;
+    .container{
+        .row{
+            .col-md-6{
+                div{
+                    h1{
+                        
+                        span{
+                            color: #ff0000;
+                        }
+                    }::selection{
+                        background-color: #ff0000;
+                    }
+                    p{
+                        
+                    }::selection{
+                        background-color: #ff0000;
+                    }
+                    button{
+                        width: 40%;
+                        height: 7vh;
+                        border-radius: 15mm;
+                        background-color: black;
+                        outline: none;
+                        span{
+                            color: white;
+                        }&:hover{
+                            background-color: #ff0000;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+            .col-md-6{
+                div{
+                    overflow: hidden;
+                    img{
+                    width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 320px) and (max-width:359px){
+    #third{
+        h1{
+            font-size: 25px;
+        }
+        p{
+            font-size: 13px;
+        }
+        button{
+            height: 10vh!important;
+        }
+    }
+}
+
+
+@media screen and (min-width: 360px) and (max-width:639px){
+    #third{
+        h1{
+            font-size: 25px;
+        }
+        p{
+            font-size: 13px;
+        }
+        button{
+            height: 10vh!important;
+        }
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px){
+    #third{
+        h1{
+            font-size: 22px;
+        }
+        p{
+            font-size: 10px;
+        }
+        button{
+            height: 6vh!important;
+        }
+    }
+
+}

@@ -1,0 +1,197 @@
+
+body{
+   font-family: 'Bowlby One SC', cursive;
+    //  max-width: 1050px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+.scrolltop{
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    top:85%;
+    right: 2%;
+    background:url("images/arrow-up.png");
+    z-index: 5841;
+    background-position: center;
+    background-size: cover;
+}
+#first{
+    background-image: url("images/mainimg.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 600px;
+    width: 100%;
+    
+    .header{
+        background-color: rgba(0, 0, 0, 0.5);
+        transition: all ease 0.3s;
+        overflow: hidden;
+        height: 100px;
+        position: absolute;
+        z-index: 2222;
+        
+        width: 100%;
+        .container-fluid{
+            .row{
+                .logodiv{
+                 img{
+                    width: 150px;
+                 }
+                }
+                .navbar{
+                    text-align: center;
+                    ul{
+                        padding-left: 100px;
+                        padding-top: 100px;
+                        line-height: 5em;
+                        li{
+                            font-size: 40px;
+                            a{
+                                color: white;
+                                text-decoration: none;
+                            }&:hover{
+                                background-color: #ff0000;
+                               
+                            }
+                        }
+                    }
+                }
+                .icondiv{
+                    padding-top: 20px;
+                    padding-left: 200px;
+                 a{
+                     text-decoration: none;
+                     i{
+                         font-size: 50px;
+                         color: white;
+                     }
+                     .ixs{
+                         display: none;
+                         
+                     }
+                 }
+                }
+            }
+        }
+    }
+    .container{
+        .row{
+            .textdiv{
+                 padding-top: 259px;
+                 padding-left: 27px;
+                 text-align: center;
+                  z-index: 0;
+                  color: white;
+                 
+                h1{
+                 font-size: 5rem;  
+
+                }
+                h5{
+                  font-size: 2rem;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 320px) and (max-width:359px){
+    #first{
+        
+        .header{
+           .icondiv{
+              padding-left: 29px!important;
+           }
+           .navbar{
+               ul{
+                   padding-left: 10px!important;
+                   li{
+                       font-size: 10px!important;
+                   }
+               }
+           }
+        }
+        .container{
+           .row{
+              .textdiv{
+                  h1{
+                      font-size: 30px;
+                  }
+                  h5{
+                      font-size: 25px;
+                  }
+              }
+            }
+        }
+    }
+}
+@media screen and (min-width: 360px) and (max-width:639px){
+
+    #first{
+        
+        .header{
+           .icondiv{
+              padding-left: 29px!important;
+           }
+           .navbar{
+               ul{
+                   padding-left: 34px!important;
+                   li{
+                       font-size: 10px!important;
+                   }
+               }
+           }
+        }
+        .container{
+           .row{
+              .textdiv{
+                  h1{
+                      font-size: 30px;
+                  }
+                  h5{
+                      font-size: 25px;
+                  }
+              }
+            }
+        }
+    }
+}
+@media screen and (min-width: 768px) and (max-width:1023px){
+
+    #first{
+        
+        .header{
+           .icondiv{
+              padding-left: 100px!important;
+           }
+           .navbar{
+               ul{
+                   padding-left: 93px!important;
+                   li{
+                       font-size: 17px!important;
+                   }
+               }
+           }
+        }
+        .container{
+           .row{
+              .textdiv{
+                  h1{
+                      font-size: 32px;
+                  }
+                  h5{
+                      font-size: 28px;
+                  }
+              }
+            }
+        }
+    }
+}
